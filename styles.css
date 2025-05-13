@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/lounge.jpg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+display: flex;
+gap: 5rem;
+justify-content: center;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks li{
+    list-style-type: none;
+
+}
+
+header a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+header a:hover{
+    color: brown;
+}
+
+.header-text{
+    color: burlywood;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    margin: auto; */
+}
+
+.header-text button{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+}
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form{
+    background-color: white;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin: 80px;
+}
+
+input, select, button{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.input-field{
+    padding: 5px;
+}
+
+.input-field button{
+    background-color: rgb(187, 108, 6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
